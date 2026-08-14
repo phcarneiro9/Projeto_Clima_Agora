@@ -36,3 +36,6 @@ http://localhost:3000
 ```
 
 Não é necessário instalar nenhuma biblioteca.
+
+Criado por Patrick Carneiro
+GitHub: https://github.com/phcarneiro9
