@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima Agora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="pagina">
+    <section class="card">
+      <div class="cabecalho">
+        <span class="icone-topo">☀️</span>
+        <div>
+          <h1>Clima Agora</h1>
+          <p>Consulte o tempo atual de qualquer cidade.</p>
+        </div>
+      </div>
+
+      <form id="form-clima">
+        <label for="cidade">Digite uma cidade</label>
+        <div class="busca">
+          <input id="cidade" type="text" placeholder="Ex: São Paulo" autocomplete="off">
+          <button type="submit">Buscar</button>
+        </div>
+      </form>
+
+      <p id="mensagem" class="mensagem"></p>
+
+      <section id="resultado" class="resultado escondido">
+        <div class="resultado-principal">
+          <div>
+            <p id="local" class="local"></p>
+            <h2 id="temperatura"></h2>
+            <p id="descricao" class="descricao-clima"></p>
+          </div>
+          <span id="icone" class="icone-clima">🌤️</span>
+        </div>
+
+        <div class="detalhes">
+          <article>
+            <span>Sensação</span>
+            <strong id="sensacao"></strong>
+          </article>
+          <article>
+            <span>Umidade</span>
+            <strong id="umidade"></strong>
+          </article>
+          <article>
+            <span>Vento</span>
+            <strong id="vento"></strong>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
