@@ -1,41 +1,44 @@
-# App Clima
+# 🌤️ Clima Agora
 
-Aplicação simples para consultar o clima atual de uma cidade utilizando a API pública Open-Meteo.
+Aplicação web para consultar o clima atual de uma cidade utilizando a **API Open-Meteo**.
 
-## Tecnologias
+## ✨ Funcionalidades
 
-- HTML
-- CSS
-- JavaScript
-- Node.js sem frameworks
-- Fetch API
-- Open-Meteo API
-
-## Funcionalidades
-
-- Busca de cidade pelo nome
+- Busca de cidade
 - Temperatura atual
 - Sensação térmica
 - Umidade
 - Velocidade do vento
-- Descrição simples da condição climática
-- Layout responsivo para computador e celular
+- Condição climática
+- Interface responsiva
 
-## Como executar
+## 🛠️ Tecnologias
 
-No terminal, dentro da pasta do projeto, execute:
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Fetch API
+- Open-Meteo API
+
+## ▶️ Como executar
 
 ```bash
+git clone https://github.com/phcarneiro9/Projeto_Clima_Agora.git
+cd Projeto_Clima_Agora
 node server.js
 ```
 
-Depois acesse:
+Depois acesse `http://localhost:3000`.
 
-```text
-http://localhost:3000
-```
+Não é necessário instalar frameworks ou bibliotecas adicionais.
 
-Não é necessário instalar nenhuma biblioteca.
+## 🎯 Objetivo
 
-Criado por Patrick Carneiro
-GitHub: https://github.com/phcarneiro9
+Praticar **JavaScript, consumo de APIs, integração com Node.js e desenvolvimento de interfaces responsivas**.
+
+## 👨‍💻 Autor
+
+**Patrick Carneiro**
+
+[GitHub](https://github.com/phcarneiro9)
